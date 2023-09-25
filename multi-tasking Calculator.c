@@ -432,7 +432,7 @@ float distance()
     scanf("%f%f",&x1,&y1);
     printf("\tenter the coordinate of second point: ");
     scanf("%f%f",&x2,&y2);
-    d=sqrt((x2-x1)(x2-x1)+(y2-y1)(y2-y1));
+    d=sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
     printf("\tDistance is %.4f",d);
 }
 
